@@ -1,0 +1,93 @@
+/* Page Style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Nav */
+nav {
+  background-color: #3498db;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #13527c;
+}
+
+/* Posts */
+.posts .post {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+.author, .date {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.content {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+/* Standup Meeting Section */
+main section {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+main section h5 {
+  margin-bottom: 1rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+main section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #2c3e50;
+  line-height: 1.5;
+}
